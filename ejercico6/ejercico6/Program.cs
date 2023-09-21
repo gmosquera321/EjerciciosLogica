@@ -11,9 +11,9 @@ public class ejercicio6
 
         double sumaCalificcaciones = 0;
 
-        for (int i = 0; i <= cantidadAlumnos; i++) ;
+        for (int i = 0; i <= cantidadAlumnos; i++) 
         {
-            Console.Write("ingrese la cantidad de alumnos{i}:");
+            Console.Write("ingrese la calificacion de alumnos:");
 
             double calificacion = double.Parse(Console.ReadLine());
 
